@@ -50,7 +50,7 @@ border-radius: 30px;
     padding-top: 10px;
     vertical-align: top;
 }
- /*.parallax {
+ .parallax {
      position: relative;
     perspective: 1.5px;
     height: 70vh;
@@ -82,14 +82,13 @@ transform: translateZ(-0.9px) scale(1.8);
   height: 70vh;
   transform-style: preserve-3d;
 }
-*/
 .v1_67{
 display: flex;
 justify-content: space-around;
 padding:50px 0;
 }
 .v1_67 span{
-    padding-right: 139px;
+    padding-left: 50px;
     font-size: 40px;
     color: aliceblue;
     object-position: center;
@@ -98,11 +97,14 @@ padding:50px 0;
 .v1_67 img{
 border-radius: 24px;
 height: 153px;
-margin-right: 50px;
+margin-right: 139px;
 }
 .v1_9{
     display: flex;
     flex-direction: column;
+}
+.v1_9 span{
+
 }
 .v1_57{
 background-color: #402809;
