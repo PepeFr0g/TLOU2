@@ -1,0 +1,183 @@
+body
+{
+padding: 0px;
+margin: 0px;
+background-color: #183426;
+font-family: IM FELL DW Pica SC;
+}
+.under{
+position: absolute;
+left: 300px;
+top: 400px;
+color:aliceblue;
+}
+.v1_5{
+font-size: 40px;
+}
+.bt{
+    position: relative;
+    width: 328px;
+    height: 86px;
+    font-size: 45px;
+    font-family: IM FELL DW Pica SC;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 50px;
+    background-color: #62A283;;
+}
+button a{
+    text-decoration: none;
+    list-style: none;
+    color: aliceblue;
+}
+.logo{
+border-radius: 30px;
+}
+.v1_46{
+    font-size: 34px;
+    margin-left: 500px;
+    display: flex;
+    padding: 20px;
+}
+.v1_46 a{    
+    text-decoration: none;
+    list-style: none;
+    color: #62A283;
+}
+.v1_46 span{
+    object-position: center;
+    padding-left: 50px;
+    padding-top: 10px;
+    vertical-align: top;
+}
+ /*.parallax {
+     position: relative;
+    perspective: 1.5px;
+    height: 70vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.parallax__layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.parallax__layer--base {
+transform: translateZ(-0.5px) scale(1.3);
+position: relative;
+left: 300px;
+}
+.parallax__layer--base1{
+transform: translateZ(-0.2px) scale(1.13);
+
+
+}
+.parallax__layer--back{
+transform: translateZ(-0.9px) scale(1.8);
+}
+.parallax__group{
+  position: relative;
+  height: 70vh;
+  transform-style: preserve-3d;
+}
+*/
+.v1_67{
+display: flex;
+justify-content: space-around;
+padding:50px 0;
+}
+.v1_67 span{
+    padding-right: 139px;
+    font-size: 40px;
+    color: aliceblue;
+    object-position: center;
+    
+}
+.v1_67 img{
+border-radius: 24px;
+height: 153px;
+margin-right: 50px;
+}
+.v1_9{
+    display: flex;
+    flex-direction: column;
+}
+.v1_57{
+background-color: #402809;
+height: 1150px;
+}
+.v1_23{
+    object-position: center;
+    font-size: 50px;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.v1_24{
+font-size: 72px;
+line-height: 90px;
+color: aliceblue;
+position: absolute;
+left: 220px;
+    padding-top: 200px;
+}
+.collomn{
+display: flex;
+flex-direction: column;
+}
+.v1_58{
+display: flex; 
+padding-left: 180px;
+padding-bottom: 46px;
+}
+.v1_29{
+font-family: IM FELL DW Pica SC;
+font-style: normal;
+font-weight: normal;
+font-size: 35px;
+line-height: 60px;
+width: 1170px;
+height: 260px;
+padding-left: 146px;
+color: #FFFFFF;
+    
+}
+.v1_22{
+width: 229px;
+height: 283px;
+border-radius: 47px;
+}
+.v1_25{
+width: 229px;
+height: 283px;
+border-radius: 47px;
+}
+.v1_27{
+width: 213px;
+height: 288px;
+border-radius: 47px;
+}
+.footer{
+display: flex;
+flex-direction: column;
+padding: 80px 0 ;
+margin-left: 400px;
+height: 100px;
+color: aquamarine;
+opacity: 50%;
+font-size: 20px;
+    
+}
+.footer img{
+padding-bottom: 30px;
+}
+.name{
+font-size: 60px;
+color: aliceblue;
+position: absolute;
+top: 160px;
+left: 300px;
+}
