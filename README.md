@@ -19,6 +19,12 @@
                 <div class="parallax__layer parallax__layer--back">
                 <img src="IMG/wallpaperflare.com_wallpaper2.png">
                 </div>
+                <div class="parallax__layer parallax__layer--base">
+                    <img src="IMG/wallpaperflare.com_wallpaper.png">
+                </div>
+                <div class="parallax__layer parallax__layer--base1">
+                    <img src="IMG/wallpaperflare.com_wallpaper%200.png">
+                </div>
                 <div>
                     <p class="name">Last of Us<br> Part II</p>
                     <section class="under">
@@ -42,7 +48,7 @@
                 <div class="v1_58">
                     <div><img src="IMG/d88d5f3ea70db503d29e4ab2e8ce85bd.jpg" class="v1_22"></div>
                     <span class="v1_24">Ellie</span>
-                    <span class="v1_29">A brave, 19-year-old girl, Ellie has grown up in this harsh world and it is all she has ever known. She’s an orphan who was raised in a boarding school run by the military within the bounds of  the quarantine zone.</span>     
+                    <span class="v1_29">A brave, 19-year-old girl, Ellie has grown up in this harsh world and it is all she has ever known. She’s an orphan who was raised in a boarding school run by the military within the bounds of  the quarantine zone.</span>
                 </div>
                 <div class="v1_58">
                     <div><img src="IMG/imgonline-com-ua-compressed-5imseykitkkjztp.jpg" class="v1_25"></div>
@@ -64,11 +70,5 @@
         </div>
     </body>
 </html>
-<!--        
-<div class="parallax__layer parallax__layer--base">
-                    <img src="IMG/wallpaperflare.com_wallpaper.png">
-                </div>
-                <div class="parallax__layer parallax__layer--base1">
-                    <img src="IMG/wallpaperflare.com_wallpaper%200.png">
-                </div> 
---!>
+      
+                 
