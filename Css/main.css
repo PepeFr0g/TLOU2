@@ -5,6 +5,8 @@ margin: 0px;
 background-color: #183426;
 font-family: IM FELL DW Pica SC;
 }
+div{
+    display:  block;}
 .under{
 position: absolute;
 left: 300px;
@@ -14,6 +16,7 @@ color:aliceblue;
 .v1_5{
 font-size: 40px;
 }
+
 .bt{
     position: relative;
     width: 328px;
@@ -35,8 +38,8 @@ border-radius: 30px;
 }
 .v1_46{
     font-size: 34px;
-    margin-left: 500px;
     display: flex;
+    justify-content: center;
     padding: 20px;
 }
 .v1_46 a{    
@@ -51,7 +54,7 @@ border-radius: 30px;
     vertical-align: top;
 }
  .parallax {
-     position: relative;
+    position: relative;
     perspective: 1.5px;
     height: 70vh;
     overflow-x: hidden;
@@ -65,23 +68,58 @@ border-radius: 30px;
   left: 0;
 }
 .parallax__layer--base {
-transform: translateZ(-0.5px) scale(1.3);
+transform: translateZ(-1.5px) scale(1.8);
 position: relative;
 left: 300px;
 }
 .parallax__layer--base1{
-transform: translateZ(-0.2px) scale(1.13);
-
-
+transform: translateZ(-0.5px) scale(1.5);
+position: relative;
+top: -300px;
+}
+.switch-for{
+cursor: pointer;
+font-size: 16px;
+line-height: 25px;
+position: relative;
+}
+.switch-for::after{
+    content: "";
+    width: 50px;
+    height: 25px;
+    background-color: papayawhip;
+    border: 2px solid #000;
+    border-radius: 15px;
+    position: absolute;
+    top: 20px;
+    right:-600px; 
+}
+.switch-for::before{
+    content: "";
+    width: 21px;
+    height: 21px;
+    background-color: gray;
+    border-radius: 50%;
+    position: absolute;
+    top: 24px;
+    right: -594.9px;
+    z-index: 1;
+}
+.switch{
+    display: none;
+}
+.switch1::checked + .switch-for::before {
+    right:-572px;
 }
 .parallax__layer--back{
-transform: translateZ(-0.9px) scale(1.8);
+transform: translateZ(-1.5px) scale(2.5);
 }
 .parallax__group{
   position: relative;
   height: 70vh;
   transform-style: preserve-3d;
 }
+
 .v1_67{
 display: flex;
 justify-content: space-around;
@@ -148,16 +186,13 @@ color: #FFFFFF;
     
 }
 .v1_22{
-width: 229px;
-height: 283px;
-border-radius: 47px;
-}
-.v1_25{
+box-shadow: 1px 2px 4px;
 width: 229px;
 height: 283px;
 border-radius: 47px;
 }
 .v1_27{
+box-shadow: 1px 2px 4px;
 width: 213px;
 height: 288px;
 border-radius: 47px;
@@ -166,7 +201,7 @@ border-radius: 47px;
 display: flex;
 flex-direction: column;
 padding: 80px 0 ;
-margin-left: 400px;
+margin-left: 20%;
 height: 100px;
 color: aquamarine;
 opacity: 50%;
